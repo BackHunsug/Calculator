@@ -26,6 +26,8 @@ public class Main {
             System.out.println("나눗셈: 0으로 나눌 수 없습니다.");
         }
 
+        System.out.println("수정했음");
+
         sc.close();
 
     }
