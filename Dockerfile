@@ -5,7 +5,7 @@ FROM amazoncorretto:17-al2-jdk
 COPY Calc.java .
 
 # 3. 컴파일
-RUN javac Calc.java
+RUN javac Main.java
 
 # 4. 실행
-CMD ["java", "Calc"]
+CMD ["java", "Main"]
