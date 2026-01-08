@@ -1,5 +1,5 @@
 # 1. 실행에 필요한 JDK 환경 설정
-FROM openjdk:17-jdk-slim
+FROM amazoncorretto:17-al2-jdk
 
 # 2. 컨테이너 내부 작업 폴더
 WORKDIR /app
